@@ -6,6 +6,8 @@ import android.widget.ImageView;
 
 public class CupActivity extends AppCompatActivity {
     private ImageView imgCup;
+
+    //將四張圖mapping to 0-3
     private int[] cups ={
             R.drawable.cup0, R.drawable.cup1,
             R.drawable.cup2, R.drawable.cup2
@@ -19,6 +21,7 @@ public class CupActivity extends AppCompatActivity {
         imgCup = findViewById(R.id.cupimg);
 
         int rand = (int)(Math.random()*4);
+
         imgCup.setImageResource(cups[rand]);
 
         setResult(rand);

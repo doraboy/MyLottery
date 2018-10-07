@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             rand = (int)(Math.random()*49+1);
         }while(hist.contains(rand));
 
+        //紀錄已出現過數字,避免重複
         hist.add(rand);
 
         tempNum.setText("" + rand);

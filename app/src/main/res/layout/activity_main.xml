@@ -19,7 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="36sp"
-        android:text="暫存區："
         android:visibility="gone"
         android:gravity="center"
         />
