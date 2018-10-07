@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        //不能再回去歡迎畫面
+         //不能再回去歡迎畫面
     }
 
 
